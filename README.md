@@ -11,11 +11,24 @@ This project demonstrates image resizing using OpenCV and custom implementations
 
 ## Building the Project
 1. Ensure OpenCV is installed on your system.
-2. Navigate to the project directory.
-3. Create a build directory and navigate into it:
+2. Clone the repository or unzip the compressed file into a directory.
+3. Navigate to the project directory.
+4. Create a build directory and navigate into it:
    ```sh
    mkdir build
    cd build
+5. Run CMake to configure the project:
+   ```sh
+   cmake ..
+7. Build the project:
+   ```sh
+   make
+   
+## Running the Application
+
+   Ensure the input image G178_2-1080.BMP is in the project directory.
+   Run the executable:
+   ./AssignmentCombined
 
 ## Observed Outputs
 The following timings were observed during the execution of the program:
