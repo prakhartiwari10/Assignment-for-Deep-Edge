@@ -28,7 +28,9 @@ This project demonstrates image resizing using OpenCV and custom implementations
 
    Ensure the input image G178_2-1080.BMP is in the project directory.
    Run the executable:
+   ```sh
    ./AssignmentCombined
+   ```
 
 ## Observed Outputs
 The following timings were observed during the execution of the program:
