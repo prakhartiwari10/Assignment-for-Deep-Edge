@@ -40,7 +40,7 @@ Time taken for 1000 iterations using INTER_CUBIC: 3430 ms
 Custom Functions
 Time taken for 1000 iterations using Custom Nearest Neighbor: 1872 ms
 Time taken for 1000 iterations using Custom Linear Interpolation: 37349 ms
-Time taken for 1000 iterations using Custom Cubic Interpolation: [ ] ms
+Time taken for 1000 iterations using Custom Cubic Interpolation: 145196 ms
 
 
 Output Files
@@ -51,3 +51,6 @@ custom_nearest.bmp
 custom_linear.bmp
 custom_cubic.bmp
 These files will be generated in the project directory after running the application.
+
+## Areas that can still be improved:
+I couldn't come up with an optimized method for cubic interpolation, so that can be improved. Also, one thing we can do is utilize the special case, i.e, if we already know the resizing factor, we can make function specifically for that case which will crop the image into width/2 x height/2, but that will be just specific to the case and won't generalize to other cases.
